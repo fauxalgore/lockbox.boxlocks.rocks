@@ -4,6 +4,7 @@ workflows:
   all:
     jobs:
       - check_url
+
 jobs:
   check_url:
     docker:
